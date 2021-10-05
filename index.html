@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemrograman Spasial Plotly.js</title>
+    <script src='https://cdn.plot.ly/plotly-2.4.2.min.js'></script>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h2>Tren Kasus Begal</h2>
+        <h4>-Kota Semarang Bagian Selatan</h4>
+        <button id="open">Grafik</button>
+    </header>
+
+    <div id="choro"></div>
+
+    <div id="modal-container" class="modal-container" name="begal">
+        <div class="modal">
+            <h3>Grafik Tren Kasus Begal di Kota Semarang Bagian Selatan</h3>
+            <div id='grafik-begal'></div>
+            <button id="close">Tutup</button>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&reg; Dibuat untuk Memenuhi Tugas Mata Kuliah Pemrograman Spasial</p>
+    </footer>
+
+</body>
+
+<script src="./popup-page.js"></script>
+<script src="./choropleth.js"></script>
+<script src="./bar-chart.js"></script>
